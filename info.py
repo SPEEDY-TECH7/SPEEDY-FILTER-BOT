@@ -88,10 +88,10 @@ PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', 'jsuysp') # Public Chan
 
 
 # Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/https://t.me/SPEEDY_BOTZ')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/SPEEDY_LINKz/6')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/SPEEDY_LINKz')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'SPEEDY_BOTZ') # Support Chat Link Without https:// or @
-OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/SPEEDY_Offcil')
+OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/SPEEDY_ADMINBOT')
 
 # True Or False
 AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', True))
@@ -156,7 +156,7 @@ YEARS = ["1900", "1991", "1992", "1993", "1994", "1995", "1996", "1997", "1998",
 
 
 # Online Stream and Download
-STREAM_MODE = bool(environ.get('STREAM_MODE', True)) # Set True or False
+STREAM_MODE = bool(environ.get('STREAM_MODE', False)) # Set True or False
 
 # If Stream Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
 MULTI_CLIENT = False
